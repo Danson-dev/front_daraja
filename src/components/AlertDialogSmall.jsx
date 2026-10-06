@@ -24,7 +24,7 @@ export function AlertDialogDemo() {
  try {
   setIsLoading(true)
   setError('')
-  const response= await axios.post("http://localhost:4000/api/v1/stkpush",{
+  const response= await axios.post("https://backdaraja.vercel.app/api/v1/stkpush",{
     amount,
    phone
  
